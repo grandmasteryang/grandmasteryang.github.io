@@ -1,3 +1,32 @@
-* {
-	color: red;
+#logo {
+	height: 3.5em;
+}
+
+#createButton {
+	width: 80%;
+	font-size: 1.7em;
+	height: 3em;
+	background-color: #FF7000;
+	color: white;
+}
+
+#searchButton {
+	width: 80%;
+	font-size: 1.7em;
+	height: 3em;
+	color: #FF7000;
+}
+
+.preview {
+	height: 250px;
+	border-style: solid;
+}
+
+.verticalPadding {
+	height: 40px;
+}
+
+.thumbnail {
+	height: 240px;
+	width: 100%;
 }
