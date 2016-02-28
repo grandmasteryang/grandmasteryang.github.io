@@ -54,6 +54,13 @@
     font-size:2.5em;
     padding-bottom: 250px;
     color: white;
+    box-shadow: inset white 3px 3px 15px, 2px 2px 5px black
+}
+
+#categoryButton:hover{
+    background-color: #EE6700;
+    box-shadow: inset 3px 3px 15px black;
+    color:rgb(225,225,225)
 }
 
 .categoryPicture{
@@ -78,6 +85,10 @@
     color: #FF7000;
     background-color: rgb(245,245,245);
     font-size:225%;
+}
+
+ #subcategoryButton:hover{
+    background-color:rgb(225,225,225);
 }
 
 
