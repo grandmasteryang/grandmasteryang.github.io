@@ -22,24 +22,23 @@
         <li><a href="construction.html">LogOut</a></li>
 	    </ul>
 	  </nav>
-    <h1>Create a Protest</h1>
-    <div id="protestCreateBox">
+    <h1 align="center">Create a Protest</h1>
+    <div class="protestCreateBox" align="center">
       <form action="protest-created.html">
-        <label><input id="upload-photo" type="text" value="Upload Cover Photo"></label>
+        <label>Upload a Cover Photo<input id="upload-photo" type="file"></label>
+        <label><input id="event-name" type="text" value="Event Name"></label>
         <br/>
-        <input id="event-name" type="text">
+        <label><input id="tags" type="text"></label>
         <br/>
-        <input id="tags" type="text">
+        <textarea id="description" name="description" cols="20" rows="4" value="Enter a description..."></textarea>
         <br/>
-        <input id="description" type="text">
+        <label>Location<input id="location" type="text"></label>
         <br/>
-        <input id="location" type="text">
+        <label>Date<input id="date" type="date"></label>
         <br/>
-        <input id="date" type="text">
+        <label>Time<input id="time" type="time"></label>
         <br/>
-        <input id="time" type="text">
-        <br/>
-        <input id="create-button" type="submit" value="CREATE">
+        <label><input id="create-button" type="submit" value="CREATE"></label>
       </form> 
     </div>
 
