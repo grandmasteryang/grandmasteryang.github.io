@@ -54,3 +54,62 @@
 	border: 5px;
 	border-color: black;
 }
+
+#categoryButton{
+    width: 8em;
+    height: 8em;
+    border-color: black;
+    background-color: #FF7000;
+    text-align: center;
+    font-size:2.5em;
+    padding-bottom: 250px;
+    color: white;
+    box-shadow: inset white 3px 3px 15px, 2px 2px 5px black
+}
+
+#categoryButton:hover{
+    background-color: #EE6700;
+    box-shadow: inset 3px 3px 15px black;
+    color:rgb(225,225,225)
+}
+
+.categoryPicture{
+    width:7em;
+    height:6em;
+    margin:auto;
+}
+
+.categoryPictureNarrow{
+    width:5em;
+    height:6em;
+    margin:auto;
+}
+
+#categoryHeader{
+    font-size: 60px
+}
+
+#subcategoryButton{
+    height: 3em;
+    width: 15em;
+    color: #FF7000;
+    background-color: rgb(245,245,245);
+    font-size:225%;
+}
+
+ #subcategoryButton:hover{
+    background-color:rgb(225,225,225);
+}
+
+
+.header {
+	text-align: center;
+}
+
+.container {
+	text-align: center;
+}
+
+.dropdown-toggle {
+	margin-right: 10px;
+}
