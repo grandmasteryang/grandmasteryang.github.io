@@ -44,3 +44,15 @@
 	top: 50px;
 	left:100px;
 }
+
+.header {
+	text-align: center;
+}
+
+.container {
+	text-align: center;
+}
+
+.dropdown-toggle {
+	margin-right: 10px;
+}
