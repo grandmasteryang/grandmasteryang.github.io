@@ -22,25 +22,27 @@
         <li><a href="construction.html">LogOut</a></li>
 	    </ul>
 	  </nav>
-    <h1 align="center">Create a Protest</h1>
     <div class="protestCreateBox" align="center">
+      <h1 align="center">Create a Protest</h1>
       <form action="protest-created.html">
-        <label>Upload a Cover Photo<input id="upload-photo" type="file"></label>
-        <label><input id="event-name" type="text" value="Event Name"></label>
+        <label>Event Name: <input id="event-name" type="text"></label>
         <br/>
-        <label><input id="tags" type="text"></label>
+        <label>Keywords: <input id="tags" type="text"></label>
         <br/>
-        <textarea id="description" name="description" cols="20" rows="4" value="Enter a description..."></textarea>
+        <p><b>Please enter a description for your event:</b></p>
+        <textarea id="description" name="description" cols="40" rows="6" value="Enter a description..."></textarea>
         <br/>
-        <label>Location<input id="location" type="text"></label>
+        <label>Location:<br/><input id="location" type="text"></label>
         <br/>
-        <label>Date<input id="date" type="date"></label>
+        <label>Date:<br/><input id="date" type="date"></label>
         <br/>
-        <label>Time<input id="time" type="time"></label>
+        <label>Time:<br/><input id="time" type="time"></label>
+        <br/>
+        <label>Upload a Cover Photo:<input id="upload-photo" type="file"></label>
         <br/>
         <label><input id="create-button" type="submit" value="CREATE"></label>
       </form> 
-    </div>
+    <div>
 
   	<script src="script.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
