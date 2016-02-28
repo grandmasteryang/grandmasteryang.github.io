@@ -44,3 +44,39 @@
 	top: 50px;
 	left:100px;
 }
+
+#categoryButton{
+    width: 8em;
+    height: 8em;
+    border-color: black;
+    background-color: #FF7000;
+    text-align: center;
+    font-size:2.5em;
+    padding-bottom: 250px;
+    color: white;
+}
+
+.categoryPicture{
+    width:7em;
+    height:6em;
+    margin:auto;
+}
+
+.categoryPictureNarrow{
+    width:5em;
+    height:6em;
+    margin:auto;
+}
+
+#categoryHeader{
+    font-size: 60px
+}
+
+#subcategoryButton{
+    height: 3em;
+    width: 15em;
+    color: #FF7000;
+    background-color: rgb(245,245,245);
+    font-size:225%;
+}
+
