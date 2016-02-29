@@ -47,7 +47,6 @@
 
 .protestCreateBox {
 	position: absolute;
-	vertical-align: center;
 	border-width: 5px;
 	border-color: black;
 	background-color: #ffad33;
@@ -55,6 +54,66 @@
 	height: 40em;
 	left: 34%;
 
+}
+
+.eventPreview {
+	position: absolute;
+	border-width: 5px;
+	border-color: black;
+	background-color: #ffad33;
+	width: 30em;
+	height: 28em;
+	top: 30%;
+	left: 34%;
+}
+
+#pc-h1 {
+	position: absolute;
+	left: 42%;
+	top: 10%;
+	font-size: 50px;
+}
+
+#pc-h2 {
+	position: absolute;
+	left: 35%;
+	top: 20%;
+	font-size: 30px;
+}
+
+#shareableLink {
+	position: absolute;
+	left: 40%;
+	top: 100%;
+}
+
+#returnHome {
+	position: relative;
+	left: 20%;
+}
+
+#viewEvent {
+	position: relative;
+	right: 20%;
+}
+
+
+#buttons {
+	position: absolute;
+	left: 30%;
+	top: 110%;
+	width: 500px;
+	height: 50px;
+}
+
+.eventPreview h1 {
+	font-style: bold;
+	font-size: 25px;
+}
+
+.eventPreview p {
+	font-style: bold;
+	font-size: 20px;
 }
 
 #categoryButton{
@@ -68,6 +127,7 @@
     color: white;
     box-shadow: inset white 3px 3px 15px, 2px 2px 5px black
 }
+
 
 #categoryButton:hover{
     background-color: #EE6700;
