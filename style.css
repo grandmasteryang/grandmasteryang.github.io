@@ -48,7 +48,7 @@
 .protestCreateBox {
 	position: absolute;
 	border: 1px solid #999;
-	background-color: #ffad33;
+	background-color: #ff7000;
 	width: 30em;
 	height: 40em;
 	left: 34%;
@@ -58,7 +58,7 @@
 .eventPreview {
 	position: absolute;
 	border: 1px solid #999;
-	background-color: #ffad33;
+	background-color: #ff7000;
 	width: 30em;
 	height: 28em;
 	top: 30%;
@@ -98,7 +98,7 @@
 }
 
 #buttons button {
-	background-color: #ffad33;
+	background-color: #ff7000;
 	width: 100px;
 	height: 70px;
 	border-radius: 15px;
