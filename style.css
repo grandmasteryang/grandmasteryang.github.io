@@ -47,8 +47,7 @@
 
 .protestCreateBox {
 	position: absolute;
-	border-width: 5px;
-	border-color: black;
+	border: 1px solid #999;
 	background-color: #ffad33;
 	width: 30em;
 	height: 40em;
@@ -58,8 +57,7 @@
 
 .eventPreview {
 	position: absolute;
-	border-width: 5px;
-	border-color: black;
+	border: 1px solid #999;
 	background-color: #ffad33;
 	width: 30em;
 	height: 28em;
@@ -87,23 +85,27 @@
 	top: 100%;
 }
 
-#returnHome {
-	position: relative;
-	left: 20%;
-}
-
 #viewEvent {
-	position: relative;
-	right: 20%;
+	margin-left: 260px;
 }
-
 
 #buttons {
 	position: absolute;
-	left: 30%;
+	left: 32%;
 	top: 110%;
 	width: 500px;
 	height: 50px;
+}
+
+#buttons button {
+	background-color: #ffad33;
+	width: 100px;
+	height: 70px;
+	border-radius: 15px;
+	outline: none;
+	border: 1px solid #999;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .eventPreview h1 {
