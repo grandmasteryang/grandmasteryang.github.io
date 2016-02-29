@@ -177,3 +177,161 @@
 .dropdown-toggle {
 	margin-right: 10px;
 }
+
+/*Following part is written by Yimin*/
+
+.account{
+    position: relative;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#myaccount{
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+#accountheader{
+    font-size: 60px;
+    text-shadow: 2px 2px 2px #CCCCCC;
+}
+
+.my-account{
+    width: 750px;
+    border: 3px #CCCCCC solid;
+    border-radius: 10px;
+    background-color: #FF7000;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+
+#user-profile{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 175px;
+    top: 0px;
+}
+
+.account-title{
+    font-size: 23px;
+    color: #FFFFCC;
+}
+
+.account-text{
+    font-size: 20px;
+    color: white;
+    font-family: monospace;
+}
+
+#account-edit{
+    width: 180px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 600px;
+}
+
+#edit-button{
+    background-color: white;
+    border-radius: 5px;
+}
+
+#edit-button:hover{
+    background-color: #CCCCCC;
+}
+
+#myprotest{
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+#protests{
+    margin-top: 10px;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px #CCCCCC;
+}
+
+.my-protests{
+    width: 750px;
+    border: 3px #CCCCCC solid;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    background-color: #FF7000;
+    font-size: 20px;
+}
+
+.vertical-space{
+    height: 30px;
+}
+
+.p-header{
+    font-family: serif;
+    color: #FFFFCC;
+    text-shadow: 1px 1px 1px white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.share{
+    color: white;
+}
+
+.link{
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.protest-header:hover{
+    text-decoration: none;
+}
+
+#createdprotest{
+    position: relative;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#protest{
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+#protestheader{
+    font-size: 60px;
+    text-shadow: 2px 2px 2px #CCCCCC;
+}
+
+#protest-content{
+    width: 750px;
+    border: 3px #CCCCCC solid;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+
+.p-title{
+    font-family: serif;
+    text-shadow: 1px 1px 1px #CCCCCC;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#description{
+    background-color: #FF7000;
+    border-radius: 10px;
+    padding:5px 10px 5px 10px;
+}
+
+.protest-title{
+    font-size: 23px;
+    color: #FFFFCC;
+}
+
+.protest-text{
+    font-size: 20px;
+    color: white;
+    font-family: monospace;
+}
