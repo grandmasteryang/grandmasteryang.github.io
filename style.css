@@ -17,6 +17,13 @@
 	color: #FF7000;
 }
 
+#joinButton {
+    width: 100%;
+    font-size: 1.7em;
+    height: 3em;
+    color: #FF7000;
+}
+
 .preview {
 	height: 250px;
 	border-style: solid;
